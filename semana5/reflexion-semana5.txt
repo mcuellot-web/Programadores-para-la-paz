@@ -1,0 +1,7 @@
+Reflexión semana 5 — APIs y comunidades
+
+Las APIs tienen un gran potencial para transformar la manera en que las comunidades organizan y comparten información. En muchos barrios y municipios de Colombia, los reportes de problemas como daños en infraestructura, cortes de servicios o situaciones de riesgo llegan de forma desordenada a través de llamadas, mensajes de WhatsApp o voz a voz, lo que dificulta darles seguimiento. Una API bien diseñada permitiría centralizar todos esos reportes en un solo sistema, donde cada mensaje incluya información estructurada como el tipo de problema, la ubicación y el nombre del reportante.
+
+Además, las APIs facilitan que diferentes aplicaciones se conecten entre sí. Por ejemplo, una aplicación móvil sencilla usada por los habitantes podría enviar alertas a través de una API, y esas alertas podrían ser recibidas automáticamente por el sistema de la alcaldía o la junta de acción comunal. Esto elimina intermediarios y reduce el tiempo de respuesta ante emergencias.
+
+Otro beneficio importante es la transparencia: si los datos de los reportes son accesibles mediante una API pública, los ciudadanos pueden verificar qué problemas han sido atendidos y cuáles siguen pendientes, lo que fomenta la rendición de cuentas. En resumen, las APIs son una herramienta tecnológica con un impacto social real, capaz de hacer que la participación comunitaria sea más eficiente, organizada y accesible para todos.

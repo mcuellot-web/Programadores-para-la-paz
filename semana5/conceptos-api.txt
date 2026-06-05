@@ -1,0 +1,15 @@
+Conceptos API - Ruta POST /reporte
+
+¿Qué hace esta ruta?
+La ruta POST /reporte recibe datos enviados por el cliente en el cuerpo (body) de la solicitud HTTP. Específicamente, espera un objeto JSON que contenga un campo llamado "mensaje". Una vez recibido, el servidor extrae ese campo con req.body.mensaje y responde con un nuevo objeto JSON que incluye dos campos: "estado" con el valor fijo "Reporte recibido", y "mensaje" con el texto que envió el cliente. A diferencia de las rutas GET, esta ruta no se puede probar simplemente escribiendo la URL en el navegador; requiere una herramienta como Postman, Thunder Client, o código JavaScript (fetch/axios) para enviar los datos.
+
+Ejemplo de solicitud:
+  Método: POST
+  URL: http://localhost:3000/reporte
+  Body (JSON): { "mensaje": "Hay un daño en el acueducto del barrio" }
+
+Ejemplo de respuesta:
+  { "estado": "Reporte recibido", "mensaje": "Hay un daño en el acueducto del barrio" }
+
+¿Para qué podría servir en una aplicación comunitaria?
+Esta ruta sería muy útil en una aplicación de gestión comunitaria. Los habitantes de un barrio o vereda podrían enviar reportes sobre problemas como daños en vías, fallas en el servicio de agua o luz, situaciones de inseguridad, o solicitudes de atención. Cada reporte llegaría organizado al servidor, donde podría ser almacenado en una base de datos, clasificado por tipo de problema, asignado a la entidad responsable (alcaldía, empresa de servicios, junta de acción comunal) y darle seguimiento hasta su resolución. Esto reemplazaría los reportes informales por WhatsApp o llamadas telefónicas por un sistema estructurado y trazable.

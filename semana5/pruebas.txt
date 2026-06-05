@@ -1,0 +1,13 @@
+Pruebas de rutas - Servidor Express (semana5)
+
+Ruta 1: http://localhost:3000
+Al acceder a esta ruta raíz, el servidor responde con el texto: "Servidor activo".
+Indica que el servidor está funcionando correctamente y escuchando peticiones en el puerto 3000.
+
+Ruta 2: http://localhost:3000/saludo
+Al acceder a esta ruta, el servidor responde con el texto: "Hola comunidad".
+Es una ruta estática que siempre devuelve el mismo mensaje de saludo a todos los visitantes.
+
+Ruta 3: http://localhost:3000/mensaje/juan
+Al acceder a esta ruta, el servidor responde con el texto: "Hola juan".
+Esta ruta usa un parámetro dinámico llamado :nombre. El valor que se escriba en la URL después de /mensaje/ es capturado por req.params.nombre y se incluye en la respuesta. Si se escribe /mensaje/maria, responde "Hola maria"; si se escribe /mensaje/pedro, responde "Hola pedro", y así con cualquier nombre.
