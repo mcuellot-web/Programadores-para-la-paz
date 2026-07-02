@@ -1,0 +1,14 @@
+Que las comunidades puedan registrar y consultar reportes en una plataforma tecnológica
+es clave para transformar problemas cotidianos en datos concretos que puedan atenderse.
+Sin un sistema de registro, las quejas se pierden en conversaciones informales y nunca
+llegan a quien tiene la capacidad de resolverlas.
+
+Una plataforma de reportes permite visibilizar problemas persistentes, ya que si el
+mismo tipo de incidencia se registra repetidamente, los datos muestran un patrón claro
+que justifica una intervención prioritaria. También da voz a comunidades que históricamente
+han tenido pocas formas de comunicar sus necesidades a las instituciones.
+
+Además, poder consultar los reportes da transparencia al proceso: los ciudadanos pueden
+verificar que su reporte fue recibido y hacer seguimiento. Esto genera confianza en la
+herramienta y en el proceso participativo en general. En definitiva, registrar y consultar
+incidencias convierte la participación ciudadana en acción concreta y medible.

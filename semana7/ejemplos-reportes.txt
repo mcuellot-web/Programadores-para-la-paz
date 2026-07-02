@@ -1,0 +1,27 @@
+Dos ejemplos de reportes ciudadanos que podrían registrarse en el sistema:
+
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público en la calle 5 con carrera 8, la lámpara lleva más de dos semanas sin funcionar."
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos sólidos en la esquina del parque central del barrio, generando malos olores y presencia de vectores."
+}
+
+Otros ejemplos posibles:
+
+Ejemplo 3:
+{
+  "tipo": "Vías",
+  "descripcion": "Hueco de gran tamaño en la vía principal de acceso al barrio que representa peligro para motociclistas y peatones."
+}
+
+Ejemplo 4:
+{
+  "tipo": "Agua potable",
+  "descripcion": "Fuga de agua visible en la tubería de la calle 3, desperdiciando el recurso hídrico hace varios días sin atención."
+}

@@ -1,0 +1,45 @@
+Prueba de las rutas POST y GET en /reportes
+
+--- Paso 1: Registrar un reporte con POST ---
+
+Se envió una petición POST a http://localhost:3000/reportes con el siguiente JSON:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El servidor respondió con:
+
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+El servidor tomó los datos de req.body, construyó un objeto con un id autoincremental
+y lo guardó en el array reportes en memoria.
+
+--- Paso 2: Consultar los reportes con GET ---
+
+Se envió una petición GET a http://localhost:3000/reportes.
+
+El servidor respondió con la lista completa de reportes almacenados:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+¿Qué ocurre si se consulta GET antes de registrar algún reporte?
+El servidor devuelve un array vacío: []
+Esto es correcto, ya que el array reportes comienza vacío al iniciar el servidor.
+
+Nota: los datos solo persisten mientras el servidor esté activo. Al reiniciarlo,
+el array vuelve a estar vacío porque no hay base de datos conectada en esta práctica.
