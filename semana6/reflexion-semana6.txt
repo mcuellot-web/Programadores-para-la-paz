@@ -1,0 +1,15 @@
+Que las plataformas tecnológicas puedan recibir información estructurada de los ciudadanos
+es fundamental para que los procesos participativos sean eficientes y confiables. Cuando
+un reporte llega en formato JSON con campos definidos como tipo y descripcion, el sistema
+puede procesarlo, almacenarlo y clasificarlo automáticamente sin intervención manual.
+
+En contraste, recibir información no estructurada, como mensajes de texto libre o
+formularios mal diseñados, genera ruido, duplicados y errores que dificultan la gestión.
+Una plataforma que recibe datos bien organizados puede generar estadísticas, priorizar
+incidencias y dar seguimiento a cada reporte de forma transparente para la comunidad.
+
+Además, la estructura de los datos protege la integridad de la información. Al validar
+que cada campo tenga el formato esperado, se reducen errores y se garantiza que los
+registros sean útiles a largo plazo. En resumen, recibir información ciudadana de forma
+estructurada convierte la participación en datos accionables, que es el primer paso para
+que la tecnología realmente sirva a las comunidades.

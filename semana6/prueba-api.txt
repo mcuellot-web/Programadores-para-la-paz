@@ -1,0 +1,26 @@
+Prueba de la ruta POST /registro
+
+Se envió una petición POST a http://localhost:3000/registro con el siguiente JSON:
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+El servidor respondió con:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+¿Qué ocurre internamente?
+Al llegar la petición, el middleware express.json() parsea el cuerpo de la solicitud y
+lo convierte en un objeto JavaScript accesible mediante req.body. La ruta /registro lee
+los campos req.body.nombre y req.body.mensaje, y los devuelve dentro de un objeto JSON
+como respuesta con código HTTP 200.
+
+Esto confirma que el servidor recibe correctamente los datos enviados por el cliente y
+los procesa sin errores. Si algún campo no se envía, aparecerá como undefined en la
+respuesta, lo que indica que el campo estaba ausente en el cuerpo de la petición.
