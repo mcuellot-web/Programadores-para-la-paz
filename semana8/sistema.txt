@@ -1,0 +1,21 @@
+Comandos ejecutados y su información:
+
+1. uname -a
+   Muestra información completa del kernel y del sistema: nombre del sistema operativo,
+   nombre del host (hostname), versión del kernel, fecha de compilación del kernel,
+   arquitectura del procesador y tipo de sistema. Por ejemplo:
+   Linux hostname 6.x.x-arch1 #1 SMP ... x86_64 GNU/Linux
+
+2. whoami
+   Muestra el nombre del usuario que está ejecutando la sesión actual en la terminal.
+   Por ejemplo: miguel
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Cuando se administra un servidor es fundamental conocer el sistema operativo y la versión
+del kernel, ya que permite identificar si hay actualizaciones de seguridad pendientes o
+vulnerabilidades conocidas en esa versión. Saber el usuario activo con whoami es clave
+para verificar si se tienen permisos adecuados o si se está operando como root por error,
+lo que podría representar un riesgo de seguridad. Conocer la arquitectura del sistema
+también es necesario para instalar paquetes o compilar software compatible. En resumen,
+estos comandos son el punto de partida para cualquier diagnóstico o configuración segura
+de un entorno de servidor.
