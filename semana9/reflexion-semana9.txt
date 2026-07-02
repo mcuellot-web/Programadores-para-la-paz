@@ -1,0 +1,15 @@
+La estabilidad y seguridad de un servidor son condiciones indispensables para que una
+plataforma tecnológica comunitaria cumpla su propósito. Cuando una comunidad depende de
+una herramienta digital para organizarse, participar o acceder a servicios, cualquier
+interrupción del servidor tiene consecuencias directas sobre sus procesos y dinámicas.
+
+Un servidor inestable puede perder datos, dejar solicitudes sin respuesta o generar
+desconfianza entre los usuarios. En contextos participativos esto es especialmente grave,
+ya que puede excluir a personas del proceso o invalidar resultados de votaciones,
+encuestas o registros colectivos. La confianza en la tecnología es parte de la confianza
+en el proceso mismo.
+
+Por eso, garantizar que el servidor funcione de forma continua, con monitoreo, logs y
+mecanismos de recuperación ante fallos, no es solo un requisito técnico, sino una
+responsabilidad hacia la comunidad que usa la plataforma. La tecnología debe ser un
+apoyo confiable para la participación, no un obstáculo.
