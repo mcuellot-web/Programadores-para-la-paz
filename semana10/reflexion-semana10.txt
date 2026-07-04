@@ -1,0 +1,17 @@
+Las metodologías ágiles, la automatización y canales como Telegram pueden transformar
+la forma en que una comunidad organiza sus procesos participativos. El trabajo por
+iteraciones cortas permite que el equipo entregue valor rápidamente sin esperar a tener
+un sistema perfecto: una versión mínima funcional ya permite recoger reportes y hacer
+seguimiento, y sobre esa base se van añadiendo mejoras.
+
+El backlog con historias de usuario da claridad sobre qué se construye y para quién.
+Cuando el equipo prioriza en función de las necesidades reales de los ciudadanos, se
+evita el error común de desarrollar funciones complejas que nadie usa, mientras los
+problemas básicos siguen sin resolverse.
+
+La automatización con n8n reduce la carga operativa: si cada nuevo reporte genera una
+alerta automática, los coordinadores no necesitan revisar el sistema constantemente.
+Esto es especialmente valioso en comunidades con recursos limitados, donde el tiempo
+humano es escaso. Y Telegram, al ser una herramienta que la mayoría ya usa, baja la
+barrera de adopción y permite que la coordinación ocurra en un canal familiar para
+todos los miembros del equipo.

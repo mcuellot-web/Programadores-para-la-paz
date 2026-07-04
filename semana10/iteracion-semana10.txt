@@ -1,0 +1,29 @@
+Definición de la primera iteración
+
+¿Qué 2 tareas del backlog harías primero?
+
+1. Registrar una incidencia (Historia de usuario 1)
+2. Consultar la lista de reportes (Historia de usuario 3)
+
+¿Por qué son las más importantes?
+Estas dos tareas forman el núcleo funcional del sistema. Sin la capacidad de registrar
+incidencias, la plataforma no tiene utilidad para los ciudadanos. Sin poder consultarlas,
+el equipo no puede hacer seguimiento ni demostrar que el sistema funciona. Juntas
+constituyen el ciclo mínimo completo: ingresar datos y recuperarlos. El resto del backlog
+depende de que estas dos funcionen correctamente primero.
+
+¿Qué significa que una tarea esté "terminada"?
+
+Definición de terminado (Definition of Done):
+
+1. La funcionalidad implementada responde correctamente a las peticiones esperadas
+   (el endpoint funciona y devuelve los datos en el formato correcto).
+
+2. Fue probada manualmente con al menos dos casos: un caso exitoso y un caso con
+   datos incompletos, verificando que el servidor responde adecuadamente en ambos.
+
+3. El código fue subido al repositorio con un commit descriptivo mediante git push,
+   quedando la evidencia registrada en GitHub.
+
+4. El archivo de documentación correspondiente (prueba-reportes.txt o equivalente)
+   fue actualizado explicando qué hace la ruta y qué respuesta devuelve.
