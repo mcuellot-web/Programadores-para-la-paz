@@ -1,0 +1,26 @@
+Descripción de la interfaz básica para la plataforma comunitaria
+
+La interfaz estaría organizada en tres secciones principales:
+
+1. Formulario para crear una causa
+   En la parte superior de la página habría un formulario con los campos: título de la
+   causa, descripción, y categoría (seleccionable: Infraestructura, Ambiente, Salud,
+   Educación). Al hacer clic en el botón "Publicar causa", el formulario envía los datos
+   al servidor mediante una petición POST y la nueva causa aparece en la lista.
+
+2. Lista de causas disponibles
+   Debajo del formulario se mostraría una lista de tarjetas, una por cada causa
+   registrada. Cada tarjeta incluiría el título, la descripción breve, la categoría,
+   la fecha de creación, el estado actual (activa / resuelta) y el contador de apoyos.
+   La lista se actualiza automáticamente al registrar una nueva causa.
+
+3. Botón de apoyo y contador
+   Cada tarjeta de causa tendría un botón "Apoyar esta causa". Al presionarlo, el sistema
+   registra el apoyo del usuario y el contador visible en la tarjeta aumenta en uno. El
+   contador mostraría el número total de apoyos recibidos, por ejemplo: "42 personas
+   apoyan esta causa". No se mostrarían nombres ni datos de quienes apoyaron.
+
+Consideraciones de diseño:
+La interfaz debe ser simple, legible en dispositivos móviles y no debe mostrar información
+privada de los usuarios. Solo se exponen datos agregados (conteos) y el contenido público
+de cada causa. El acceso a funciones de administración requeriría login previo.

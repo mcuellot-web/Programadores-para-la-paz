@@ -1,0 +1,49 @@
+Modelo de datos para plataforma comunitaria de reportes y causas
+
+---
+
+Entidad: Causa
+
+Campos principales:
+- id           (número entero, identificador único autogenerado)
+- titulo       (texto, nombre corto de la causa comunitaria)
+- descripcion  (texto largo, detalle del problema o iniciativa)
+- categoria    (texto, ej: Infraestructura, Ambiente, Salud, Educación)
+- fecha        (fecha y hora de creación del registro)
+- estado       (texto, valores posibles: activa, resuelta, archivada)
+
+Propósito:
+Guardar las causas o iniciativas comunitarias que los ciudadanos pueden
+crear y que estarán visibles en la plataforma para recibir apoyos y
+hacer seguimiento colectivo.
+
+---
+
+Entidad: Apoyo
+
+Campos principales:
+- id           (número entero, identificador único autogenerado)
+- causa_id     (número entero, referencia al id de la causa apoyada)
+- usuario      (texto, nombre o alias del usuario que apoya; no dato sensible)
+- fecha        (fecha y hora en que se registró el apoyo)
+
+Propósito:
+Registrar los apoyos que recibe cada causa para contabilizar la
+participación ciudadana y mostrar cuántas personas respaldan cada
+iniciativa, sin exponer información personal identificable.
+
+---
+
+Entidad: Reporte
+
+Campos principales:
+- id           (número entero, identificador único autogenerado)
+- tipo         (texto, categoría del reporte: Iluminación, Vías, Agua, etc.)
+- descripcion  (texto largo, descripción del problema reportado)
+- fecha        (fecha y hora del reporte)
+- estado       (texto, valores posibles: pendiente, en revisión, resuelto)
+
+Propósito:
+Almacenar incidencias reportadas por ciudadanos para que el equipo
+coordinador pueda gestionarlas, priorizarlas y darles seguimiento
+hasta su resolución.
