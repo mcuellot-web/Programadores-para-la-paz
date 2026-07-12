@@ -1,0 +1,43 @@
+Automatización simple con n8n y Telegram — "Petición en 3 Clics"
+
+--- Flujo 1: Nueva causa registrada ---
+
+Evento que activa la automatización:
+Un ciudadano crea una nueva causa en la plataforma. El servidor, tras registrarla
+en la base de datos, envía una notificación a un webhook de n8n.
+
+Nodos en n8n:
+1. Webhook: recibe la señal del servidor con el id y tipo de la causa.
+2. Función: extrae únicamente el id y la categoría, descartando cualquier
+   dato personal.
+3. Telegram: envía el mensaje al canal de coordinación del equipo.
+
+Mensaje enviado a Telegram:
+"🔔 Nueva causa registrada en la plataforma.
+Categoría: Infraestructura
+ID: 12
+Ingresa al sistema para revisar el detalle."
+
+--- Flujo 2: PDF de petición generado ---
+
+Evento que activa la automatización:
+El sistema genera el documento PDF de una causa con suficientes apoyos.
+
+Mensaje enviado a Telegram:
+"📄 Petición lista para entregar.
+Causa ID: 12 — Apoyos: 87
+El documento PDF está disponible para descarga en el sistema."
+
+--- Información que NO debe enviarse por seguridad ---
+
+- Nombres completos de quienes apoyaron la causa.
+- Números de cédula o documento de identidad.
+- Teléfonos o correos electrónicos.
+- Direcciones físicas o de residencia.
+- Tokens de acceso o claves de API.
+- Contraseñas o credenciales del sistema.
+- Comentarios o descripciones que contengan datos sensibles.
+- Información de menores de edad.
+
+El principio es claro: Telegram es un canal de alerta, no un repositorio de datos.
+Solo se envía lo mínimo necesario para que el equipo sepa que debe revisar el sistema.

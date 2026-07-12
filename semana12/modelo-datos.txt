@@ -1,0 +1,38 @@
+Modelo de datos — Sistema "Petición en 3 Clics"
+
+---
+
+Entidad: Causa
+
+Campos:
+- id          (entero, identificador único autogenerado)
+- titulo      (texto, nombre de la causa comunitaria)
+- descripcion (texto largo, explicación del problema o demanda)
+- categoria   (texto, ej: Infraestructura, Ambiente, Salud, Educación)
+- fecha       (fecha y hora de creación)
+- estado      (texto: activa / resuelta / archivada)
+
+Propósito:
+Almacenar cada causa comunitaria que los ciudadanos crean en la plataforma.
+Es la entidad central del sistema; todas las demás se relacionan con ella.
+
+---
+
+Entidad: Apoyo
+
+Campos:
+- id        (entero, identificador único autogenerado)
+- causa_id  (entero, referencia al id de la causa apoyada)
+- nombre    (texto, nombre o alias del ciudadano; no se guarda dato sensible)
+- fecha     (fecha y hora en que se registró el apoyo)
+
+Propósito:
+Registrar cada apoyo recibido por una causa para contabilizar la
+participación ciudadana. La relación entre Apoyo y Causa permite saber
+cuántas personas respaldan cada iniciativa y cuándo lo hicieron.
+
+---
+
+Relación entre entidades:
+Una Causa puede tener muchos Apoyos (relación 1 a N).
+Cada Apoyo pertenece a exactamente una Causa mediante causa_id.

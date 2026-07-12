@@ -1,0 +1,16 @@
+Durante este curso aprendí que la tecnología no es neutral: dependiendo de cómo se diseña
+y para quién, puede amplificar la participación ciudadana o excluir a quienes más la
+necesitan. Construir una plataforma comunitaria no es solo escribir código que funcione;
+es tomar decisiones sobre qué datos se guardan, quién tiene acceso, cómo se protege la
+privacidad y de qué manera la herramienta se adapta a las capacidades reales de sus usuarios.
+
+Aprendí también que la organización importa tanto como el código. Sin un backlog claro,
+sin iteraciones pequeñas y sin definir cuándo una tarea está terminada, es fácil construir
+mucho sin entregar nada útil. Las metodologías ágiles no son burocracia; son una forma de
+mantener el foco en lo que realmente necesita la comunidad.
+
+Finalmente, el aprendizaje que más me llevo es que la tecnología con impacto social requiere
+responsabilidad ética permanente: proteger los datos de quienes confían en la plataforma,
+no exponer información sensible, y recordar que detrás de cada registro hay una persona real
+con derechos. Esa conciencia es lo que distingue una herramienta verdaderamente comunitaria
+de una que solo aparenta serlo.
